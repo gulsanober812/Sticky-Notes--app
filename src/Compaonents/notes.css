@@ -58,9 +58,9 @@
 
 
 .add_new_btn {
-  position: fixed;
-  margin-right: 80%;
-  right: 20px;
+  
+  margin-left: 50px;
+  left: 20px;
   padding: 10px 30px;
   
   color: rgb(7, 2, 2);
@@ -72,7 +72,23 @@
   box-shadow: 0 3px 6px rgba(236, 10, 199, 0.2);
   transition: background 0.2s ease-in-out;
 }
+@media (max-width: 400px) {
+  .note textarea {
+    font-size: 0.9rem;
+  }
 
+  .add_new_btn {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .add_new_btn {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    padding: 0.6rem;
+    font-size: 1.8rem;
+  }
+}
 .add_new_btn:hover {
   background-color: #f09df3;
 }

@@ -75,7 +75,7 @@ const Notes = () => {
     <div className='notes'>
     
       
-   <SmilePlus className="add_new_btn" onClick={addNewNote}/>
+   <SmilePlus className="add_new_btn" onClick={addNewNote} />
 
 
       {
